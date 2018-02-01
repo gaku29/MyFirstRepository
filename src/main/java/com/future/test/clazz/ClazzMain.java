@@ -17,6 +17,7 @@ public class ClazzMain {
         MyGenericClass<String, String>  my = new MyGenericClass<String, String>();
         Class<?>  m = my.getClass();
 
+
         Class<?> intclass = int.class;  // 基本类型
         Class<?> intArrayClass = int[].class;  // 数组类型
         Class<?> int2ArrayClass = int[][].class; // 二维数组类型
